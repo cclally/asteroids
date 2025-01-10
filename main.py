@@ -13,9 +13,7 @@ def main():
             if event.type == pygame.QUIT:
                 return
         screen.fill("black")
-    print(f"Starting asteroids!")
-    print(f"Screen width:{' '}{SCREEN_WIDTH}")
-    print(f"Screen height:{' '}{SCREEN_HEIGHT}")
+        pygame.display.flip()
 
 if __name__ == "__main__":
     main()
