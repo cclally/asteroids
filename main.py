@@ -46,7 +46,7 @@ def main():
                 sys.exit(0)
             for item2 in shots:
                 if item.is_collision(item2):
-                    item.kill()
+                    item.split()
                     item2.kill()
 
         screen.fill("black")
